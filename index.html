@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+    <title>HTML Entity Decoder</title>
+</head>
+
+<body>
+    <noscript>
+        <div>
+            <h2>Something went wrong</h2>
+            <p>Looks like Javascript is <b>turned off</b> in your browser or isn't <b>supported</b> in your browser.</p>
+        </div>
+    </noscript>
+
+    <h1>HTML Entity Decoder</h1>
+
+    <!--input area-->
+    <div>
+        <h3>Enter HTML Entity Here</h3>
+        <div id="input-block">
+            <button type="reset" id="btn-clear" class="btn">clear</button>
+            <label for="input">
+                <textarea id="input" cols="100" rows="10" placeholder="Enter Your Text"></textarea>
+            </label>
+        </div>
+
+    </div>
+
+    <!--output area-->
+    <div>
+        <h3>Result</h3>
+        <div>
+            <textarea id="output" readonly></textarea>
+            <input type="button" id="btn" class="btn" value="Copy Result">
+        </div>
+    </div>
+</body>
+
+</html>
